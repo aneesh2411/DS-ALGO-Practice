@@ -54,4 +54,5 @@ class Solution:
         bfs(sr, sc, image, color)
         return image
 
-
+#Time complexity: O(n*m) because we are iterating over each cell in the grid.
+#Space complexity: O(n*m) because we are using a queue to store the cells.
